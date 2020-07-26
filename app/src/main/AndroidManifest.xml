@@ -15,12 +15,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="UnusedAttribute">
-        <activity android:name=".activity.Users"/>
+        <activity android:name=".activity.Problem"/>
         <activity
             android:name=".activity.ChatActivity"
             android:theme="@style/NoActionBar"
             android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
-        <activity android:name=".activity.Problem">
+        <activity android:name=".activity.Users">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
